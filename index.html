@@ -1,0 +1,20 @@
+
+<!doctype html>
+<html>
+<head>
+	<title>Earthquake Data</title>
+	<meta charset = 'UTF-8' />
+	<script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src = "https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.5/handlebars.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src = "script.js" type="text/javascript" charset="utf-8"></script>
+</head>
+<body>
+	<!-- Data will be inserted in its according place, replacing the brackets. -->
+	<script id="earthquake-template" type="text/x-handlebars-template">
+	There was an earthquake at {{location}} of magnitude {{magnitude}} at {{time}}.
+	</script>
+  
+	<!--Your new content will be displayed in here-->
+	<div class="content-placeholder"></div>
+</body>
+</html>
